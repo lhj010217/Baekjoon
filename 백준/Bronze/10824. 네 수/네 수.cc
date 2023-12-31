@@ -20,9 +20,7 @@ int main() {
 	cout.tie(0);
 	
 	string A, B, C, D;
-	long long AB, CD;
 	cin >> A >> B >> C >> D;
-
 
 	cout << stoll(A + B) + stoll(C + D);
 }
