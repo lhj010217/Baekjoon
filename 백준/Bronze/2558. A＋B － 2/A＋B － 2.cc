@@ -1,22 +1,16 @@
 #include<iostream>
-#include<stdio.h>
-#include<queue>
-#include<cmath>
-#include<tuple>
-#include<stack>
-#include<vector>
 #include<string>
+#include<vector>
 #include<algorithm>
+#include<set>
+#include<map>
 using namespace std;
 
-
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
-	cout.tie(0);
 
-	int a, b;
-	cin >> a >> b;
-	cout << a + b;
+	int A, B;
+	cin >> A >> B; 
+	cout << A + B;
 
+	return 0;
 }
